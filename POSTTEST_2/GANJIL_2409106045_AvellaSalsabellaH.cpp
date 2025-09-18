@@ -120,7 +120,7 @@ string pilihItemDariDaftar() {
 
 void tambahItem(const string &namaItem) {
     int jumlahAwal = jumlahAwalItem();
-    string tipe = tipeItem[namaItem]; // langsung ambil dari map
+    string tipe = tipeItem[namaItem]; 
 
     Item* temp = head;
     while (temp != nullptr) {
@@ -150,7 +150,7 @@ void tambahItem(const string &namaItem) {
 
 void sisipItem(const string &namaItem) {
     int jumlahAwal = jumlahAwalItem();
-    string tipe = tipeItem[namaItem]; // langsung ambil dari map
+    string tipe = tipeItem[namaItem]; 
 
     Item* baru = new Item{namaItem, jumlahAwal, tipe, nullptr};
     int posisi = posisiSisipItem();
