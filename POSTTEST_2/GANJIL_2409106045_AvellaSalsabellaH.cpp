@@ -37,11 +37,6 @@ map<string, string> tipeItem = {
 int jumlahAwalItem() {
     if ((int)nim.length() >= 2) {
         string lastTwo = nim.substr(nim.length() - 2);
-        try {
-            return stoi(lastTwo);
-        } catch (...) {
-            return 0;
-        }
     }
     try {
         return stoi(nim);
@@ -155,9 +150,6 @@ void sisipItem(const string &namaItem) {
     Item* baru = new Item{namaItem, jumlahAwal, tipe, nullptr};
     int posisi = posisiSisipItem();
     int total = hitungItem();
-
-    cout << "Mencoba menyisip pada posisi: " << posisi
-         << " (total item saat ini: " << total << ")\n";
 
     if (head == nullptr || posisi <= 1) {
         baru->next = head;
@@ -277,7 +269,7 @@ int main() {
     do {
         cout << "\n<3---------------------------------------<3\n";
         cout << "|        * GAME INVENTORY MANAGEMENT *   |\n";
-        cout << "|            [ " << nama << " - " << nim << " ]          |\n";
+        cout << "|         [ " << nama << " - " << nim << " ]          |\n";
         cout << "<3---------------------------------------<3\n";
         cout << "| <3 1. Tambah Item Baru                * |\n";
         cout << "| <3 2. Sisipkan Item                   * |\n";
@@ -315,7 +307,7 @@ int main() {
                 tampilkanInventory();
                 break;
             case 0:
-                cout << "\nTerima kasih telah menggunakan program inventory, " << nama << "! <3\n";
+                cout << "\nTerima kasih telah menggunakan program ini <3, " << nama << "! >_<\n";
                 break;
             default:
                 cout << "Pilihan tidak valid!\n";
