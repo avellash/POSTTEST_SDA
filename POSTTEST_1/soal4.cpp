@@ -26,3 +26,9 @@ int main() {
     return 0;
 }
 
+// Soal 4. Pointer pada Fungsi
+// Buat fungsi untuk menukar dua variabel integer.
+// Ganjil: gunakan double pointer (int **) dalam fungsi untuk melakukan pertukaran nilai.
+// Genap: gunakan reference (&) dalam fungsi untuk melakukan pertukaran nilai.
+// Kemudian:
+// Uji fungsi tersebut dengan dua nilai input dan tampilkan hasil sebelum dan sesudah pertukaran.

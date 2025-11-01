@@ -32,3 +32,11 @@ int main() {
 
     return 0;
 }
+
+// Soal 1. Array + Pointer
+// Buat program untuk menyimpan 7 data integer dalam array.
+// Ganjil: isi dengan kelipatan 3
+// Genap: isi dengan bilangan prima
+// Kemudian:
+// Buat fungsi dengan parameter pointer untuk membalik urutan array.
+// Tampilkan array sebelum dan sesudah dibalik.

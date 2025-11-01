@@ -33,3 +33,13 @@ int main() {
 
     return 0;
 }
+
+
+// Soal 3. Struct + Array
+// Buat array of struct Mahasiswa yang berisi:
+// nama (string)
+// nim (string/int)
+// ipk (float/double)
+// Aturan:
+// Ganjil: input 5 mahasiswa, tampilkan mahasiswa dengan IPK tertinggi
+// Genap: input 4 mahasiswa, urutkan berdasarkan IPK ascending, lalu tampilkan semua

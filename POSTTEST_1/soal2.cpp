@@ -31,3 +31,11 @@ int main() {
 
     return 0;
 }
+
+
+// Soal 2. Array 2D
+// Buat program untuk menyimpan matriks 3x3.
+// Ganjil: hitung jumlah diagonal utama + diagonal sekunder
+// Genap: hitung jumlah elemen baris genap saja
+// Kemudian:
+// Cetak hasil perhitungan beserta matriksnya.
